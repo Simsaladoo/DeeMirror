@@ -44,16 +44,20 @@
             // wildcardTextBox
             // 
             this.wildcardTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.wildcardTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.wildcardTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.wildcardTextBox.ForeColor = System.Drawing.SystemColors.Control;
             this.wildcardTextBox.Location = new System.Drawing.Point(6, 94);
             this.wildcardTextBox.Margin = new System.Windows.Forms.Padding(0);
             this.wildcardTextBox.Name = "wildcardTextBox";
-            this.wildcardTextBox.Size = new System.Drawing.Size(102, 20);
+            this.wildcardTextBox.Size = new System.Drawing.Size(102, 13);
             this.wildcardTextBox.TabIndex = 2;
             this.wildcardTextBox.TextChanged += new System.EventHandler(this.wildcardTextBox_TextChanged);
             // 
             // listBox
             // 
             this.listBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.listBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBox.ForeColor = System.Drawing.SystemColors.Control;
             this.listBox.IntegralHeight = false;
@@ -69,7 +73,11 @@
             // removeButton
             // 
             this.removeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.removeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.removeButton.Enabled = false;
+            this.removeButton.FlatAppearance.BorderSize = 0;
+            this.removeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.removeButton.ForeColor = System.Drawing.SystemColors.Control;
             this.removeButton.Image = global::RoboMirror.Properties.Resources.delete2;
             this.removeButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.removeButton.Location = new System.Drawing.Point(5, 29);
@@ -81,13 +89,17 @@
             this.removeButton.Text = "Remove";
             this.removeButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolTip.SetToolTip(this.removeButton, "Remove the selected item(s) from the list.");
-            this.removeButton.UseVisualStyleBackColor = true;
+            this.removeButton.UseVisualStyleBackColor = false;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
             // addWildcardButton
             // 
             this.addWildcardButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.addWildcardButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.addWildcardButton.Enabled = false;
+            this.addWildcardButton.FlatAppearance.BorderSize = 0;
+            this.addWildcardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addWildcardButton.ForeColor = System.Drawing.SystemColors.Control;
             this.addWildcardButton.Image = global::RoboMirror.Properties.Resources.document_find;
             this.addWildcardButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.addWildcardButton.Location = new System.Drawing.Point(5, 120);
@@ -98,7 +110,7 @@
             this.addWildcardButton.TabIndex = 3;
             this.addWildcardButton.Text = "Add wildcard";
             this.addWildcardButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.addWildcardButton.UseVisualStyleBackColor = true;
+            this.addWildcardButton.UseVisualStyleBackColor = false;
             this.addWildcardButton.Click += new System.EventHandler(this.addWildcardButton_Click);
             // 
             // folderBrowserDialog
@@ -126,6 +138,10 @@
             // browseButton
             // 
             this.browseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.browseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.browseButton.FlatAppearance.BorderSize = 0;
+            this.browseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.browseButton.ForeColor = System.Drawing.SystemColors.Control;
             this.browseButton.Image = global::RoboMirror.Properties.Resources.folder_view;
             this.browseButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.browseButton.Location = new System.Drawing.Point(5, 0);
@@ -136,7 +152,7 @@
             this.browseButton.TabIndex = 0;
             this.browseButton.Text = "Browse...";
             this.browseButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.browseButton.UseVisualStyleBackColor = true;
+            this.browseButton.UseVisualStyleBackColor = false;
             this.browseButton.Click += new System.EventHandler(this.browseButton_Click);
             // 
             // ExcludedItemsControl

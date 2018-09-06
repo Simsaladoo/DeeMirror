@@ -65,8 +65,10 @@
             // historyButton
             // 
             this.historyButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.historyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.historyButton.Enabled = false;
             this.historyButton.FlatAppearance.BorderSize = 0;
+            this.historyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.historyButton.Image = global::RoboMirror.Properties.Resources.history;
             this.historyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.historyButton.Location = new System.Drawing.Point(501, 112);
@@ -77,14 +79,16 @@
             this.historyButton.Text = "History...";
             this.historyButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolTip1.SetToolTip(this.historyButton, "Display the history of the selected mirror task.");
-            this.historyButton.UseVisualStyleBackColor = true;
+            this.historyButton.UseVisualStyleBackColor = false;
             this.historyButton.Click += new System.EventHandler(this.historyButton_Click);
             // 
             // scheduleButton
             // 
             this.scheduleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.scheduleButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.scheduleButton.Enabled = false;
             this.scheduleButton.FlatAppearance.BorderSize = 0;
+            this.scheduleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.scheduleButton.Image = global::RoboMirror.Properties.Resources.clock;
             this.scheduleButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.scheduleButton.Location = new System.Drawing.Point(501, 157);
@@ -95,13 +99,15 @@
             this.scheduleButton.Text = "Schedule...";
             this.scheduleButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolTip1.SetToolTip(this.scheduleButton, "Schedule the selected mirror task.");
-            this.scheduleButton.UseVisualStyleBackColor = true;
+            this.scheduleButton.UseVisualStyleBackColor = false;
             this.scheduleButton.Click += new System.EventHandler(this.scheduleButton_Click);
             // 
             // addButton
             // 
             this.addButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.addButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.addButton.FlatAppearance.BorderSize = 0;
+            this.addButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addButton.Image = global::RoboMirror.Properties.Resources.data_copy_add;
             this.addButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.addButton.Location = new System.Drawing.Point(501, 0);
@@ -112,14 +118,16 @@
             this.addButton.Text = "Add task...";
             this.addButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolTip1.SetToolTip(this.addButton, "Add a new mirror task.");
-            this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.UseVisualStyleBackColor = false;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // editButton
             // 
             this.editButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.editButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.editButton.Enabled = false;
             this.editButton.FlatAppearance.BorderSize = 0;
+            this.editButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.editButton.Image = global::RoboMirror.Properties.Resources.data_copy;
             this.editButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.editButton.Location = new System.Drawing.Point(501, 33);
@@ -130,14 +138,16 @@
             this.editButton.Text = "Edit...";
             this.editButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolTip1.SetToolTip(this.editButton, "Edit the selected mirror task.");
-            this.editButton.UseVisualStyleBackColor = true;
+            this.editButton.UseVisualStyleBackColor = false;
             this.editButton.Click += new System.EventHandler(this.editButton_Click);
             // 
             // removeButton
             // 
             this.removeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.removeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.removeButton.Enabled = false;
             this.removeButton.FlatAppearance.BorderSize = 0;
+            this.removeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.removeButton.Image = global::RoboMirror.Properties.Resources.data_copy_delete;
             this.removeButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.removeButton.Location = new System.Drawing.Point(501, 67);
@@ -148,7 +158,7 @@
             this.removeButton.Text = "Remove";
             this.removeButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolTip1.SetToolTip(this.removeButton, "Remove the selected mirror task.");
-            this.removeButton.UseVisualStyleBackColor = true;
+            this.removeButton.UseVisualStyleBackColor = false;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
             // pictureBox1
@@ -243,8 +253,10 @@
             // restoreButton
             // 
             this.restoreButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.restoreButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.restoreButton.Enabled = false;
             this.restoreButton.FlatAppearance.BorderSize = 0;
+            this.restoreButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.restoreButton.ForeColor = System.Drawing.SystemColors.Control;
             this.restoreButton.Image = global::RoboMirror.Properties.Resources.data_previous24;
             this.restoreButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -255,14 +267,16 @@
             this.restoreButton.TabIndex = 7;
             this.restoreButton.Text = "Restore";
             this.restoreButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.restoreButton.UseVisualStyleBackColor = true;
+            this.restoreButton.UseVisualStyleBackColor = false;
             this.restoreButton.Click += new System.EventHandler(this.restoreButton_Click);
             // 
             // backupButton
             // 
             this.backupButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.backupButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.backupButton.Enabled = false;
             this.backupButton.FlatAppearance.BorderSize = 0;
+            this.backupButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backupButton.Image = global::RoboMirror.Properties.Resources.data_next24;
             this.backupButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.backupButton.Location = new System.Drawing.Point(0, 203);
@@ -272,7 +286,7 @@
             this.backupButton.TabIndex = 6;
             this.backupButton.Text = "Backup";
             this.backupButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.backupButton.UseVisualStyleBackColor = true;
+            this.backupButton.UseVisualStyleBackColor = false;
             this.backupButton.Click += new System.EventHandler(this.backupButton_Click);
             // 
             // mirrorOperationsQueueControl
@@ -338,7 +352,7 @@
             this.MinimumSize = new System.Drawing.Size(617, 364);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RoboMirror";
+            this.Text = "DeeMirror";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.mainPanel.ResumeLayout(false);
             this.queuePanel.ResumeLayout(false);

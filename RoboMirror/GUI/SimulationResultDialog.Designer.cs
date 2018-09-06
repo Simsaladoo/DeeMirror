@@ -55,7 +55,10 @@
             // abortButton
             // 
             this.abortButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.abortButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.abortButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.abortButton.FlatAppearance.BorderSize = 0;
+            this.abortButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.abortButton.Image = global::RoboMirror.Properties.Resources.delete;
             this.abortButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.abortButton.Location = new System.Drawing.Point(519, 351);
@@ -65,12 +68,12 @@
             this.abortButton.TabIndex = 14;
             this.abortButton.Text = "Abort";
             this.abortButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.abortButton.UseVisualStyleBackColor = true;
+            this.abortButton.UseVisualStyleBackColor = false;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.pictureBox3.Image = global::RoboMirror.Properties.Resources.data_information32;
             this.pictureBox3.Location = new System.Drawing.Point(602, 10);
             this.pictureBox3.Name = "pictureBox3";
@@ -95,7 +98,10 @@
             // proceedButton
             // 
             this.proceedButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.proceedButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.proceedButton.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.proceedButton.FlatAppearance.BorderSize = 0;
+            this.proceedButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.proceedButton.Image = global::RoboMirror.Properties.Resources.check;
             this.proceedButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.proceedButton.Location = new System.Drawing.Point(384, 351);
@@ -105,7 +111,7 @@
             this.proceedButton.TabIndex = 13;
             this.proceedButton.Text = "Proceed";
             this.proceedButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.proceedButton.UseVisualStyleBackColor = true;
+            this.proceedButton.UseVisualStyleBackColor = false;
             // 
             // label4
             // 

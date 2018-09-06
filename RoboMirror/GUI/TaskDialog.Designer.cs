@@ -116,7 +116,10 @@
             // 
             // excludedItemsButton
             // 
+            this.excludedItemsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.excludedItemsButton.Enabled = false;
+            this.excludedItemsButton.FlatAppearance.BorderSize = 0;
+            this.excludedItemsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.excludedItemsButton.Image = global::RoboMirror.Properties.Resources.data_forbidden;
             this.excludedItemsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.excludedItemsButton.Location = new System.Drawing.Point(52, 76);
@@ -128,7 +131,7 @@
             this.excludedItemsButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolTip1.SetToolTip(this.excludedItemsButton, "Edit the list of excluded subfolders, files and wildcards.\r\nFiles may be excluded" +
         " by their attributes too.");
-            this.excludedItemsButton.UseVisualStyleBackColor = true;
+            this.excludedItemsButton.UseVisualStyleBackColor = false;
             this.excludedItemsButton.Click += new System.EventHandler(this.excludedItemsButton_Click);
             // 
             // pictureBox1
@@ -143,6 +146,9 @@
             // browseSourceFolderButton
             // 
             this.browseSourceFolderButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.browseSourceFolderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.browseSourceFolderButton.FlatAppearance.BorderSize = 0;
+            this.browseSourceFolderButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.browseSourceFolderButton.Image = global::RoboMirror.Properties.Resources.folder_view;
             this.browseSourceFolderButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.browseSourceFolderButton.Location = new System.Drawing.Point(399, 41);
@@ -152,12 +158,15 @@
             this.browseSourceFolderButton.TabIndex = 2;
             this.browseSourceFolderButton.Text = "Browse...";
             this.browseSourceFolderButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.browseSourceFolderButton.UseVisualStyleBackColor = true;
+            this.browseSourceFolderButton.UseVisualStyleBackColor = false;
             this.browseSourceFolderButton.Click += new System.EventHandler(this.browseSourceFolderButton_Click);
             // 
             // browseTargetFolderButton
             // 
             this.browseTargetFolderButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.browseTargetFolderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.browseTargetFolderButton.FlatAppearance.BorderSize = 0;
+            this.browseTargetFolderButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.browseTargetFolderButton.Image = global::RoboMirror.Properties.Resources.folder_view;
             this.browseTargetFolderButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.browseTargetFolderButton.Location = new System.Drawing.Point(399, 148);
@@ -167,7 +176,7 @@
             this.browseTargetFolderButton.TabIndex = 7;
             this.browseTargetFolderButton.Text = "Browse...";
             this.browseTargetFolderButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.browseTargetFolderButton.UseVisualStyleBackColor = true;
+            this.browseTargetFolderButton.UseVisualStyleBackColor = false;
             this.browseTargetFolderButton.Click += new System.EventHandler(this.browseTargetFolderButton_Click);
             // 
             // vscCheckBox

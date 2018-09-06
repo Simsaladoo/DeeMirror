@@ -144,7 +144,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.pictureBox3.Image = global::RoboMirror.Properties.Resources.data_forbidden32;
             this.pictureBox3.Location = new System.Drawing.Point(550, 13);
             this.pictureBox3.Name = "pictureBox3";
@@ -174,6 +174,7 @@
             this.excludedFilesControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.excludedFilesControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.excludedFilesControl.BaseFolder = null;
             this.excludedFilesControl.Font = this.Font;
             this.excludedFilesControl.Location = new System.Drawing.Point(14, 22);
@@ -194,7 +195,7 @@
             this.foldersGroupBox.Location = new System.Drawing.Point(0, 7);
             this.foldersGroupBox.Margin = new System.Windows.Forms.Padding(0);
             this.foldersGroupBox.Name = "foldersGroupBox";
-            this.foldersGroupBox.Size = new System.Drawing.Size(568, 160);
+            this.foldersGroupBox.Size = new System.Drawing.Size(568, 161);
             this.foldersGroupBox.TabIndex = 0;
             this.foldersGroupBox.TabStop = false;
             this.foldersGroupBox.Text = "Excluded folders";
@@ -204,11 +205,12 @@
             this.excludedFoldersControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.excludedFoldersControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.excludedFoldersControl.BaseFolder = null;
             this.excludedFoldersControl.Location = new System.Drawing.Point(14, 22);
             this.excludedFoldersControl.Mode = RoboMirror.GUI.ExcludedItemsMode.Folders;
             this.excludedFoldersControl.Name = "excludedFoldersControl";
-            this.excludedFoldersControl.Size = new System.Drawing.Size(540, 125);
+            this.excludedFoldersControl.Size = new System.Drawing.Size(540, 126);
             this.excludedFoldersControl.TabIndex = 0;
             this.excludedFoldersControl.Changed += new System.EventHandler(this.Control_Changed);
             // 

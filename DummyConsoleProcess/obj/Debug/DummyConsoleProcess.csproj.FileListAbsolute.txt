@@ -1,0 +1,5 @@
+D:\Reposit\DeeMirror\RoboMirror\bin\Debug\DummyConsoleProcess.exe
+D:\Reposit\DeeMirror\RoboMirror\bin\Debug\DummyConsoleProcess.pdb
+D:\Reposit\DeeMirror\DummyConsoleProcess\obj\Debug\DummyConsoleProcess.csproj.CoreCompileInputs.cache
+D:\Reposit\DeeMirror\DummyConsoleProcess\obj\Debug\DummyConsoleProcess.exe
+D:\Reposit\DeeMirror\DummyConsoleProcess\obj\Debug\DummyConsoleProcess.pdb

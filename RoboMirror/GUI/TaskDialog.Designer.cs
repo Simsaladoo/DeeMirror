@@ -1,4 +1,4 @@
-﻿namespace RoboMirror.GUI
+﻿namespace DeeMirror.GUI
 {
 	partial class TaskDialog
 	{
@@ -107,7 +107,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::RoboMirror.Properties.Resources.data_into24;
+            this.pictureBox2.Image = global::DeeMirror.Properties.Resources.data_into24;
             this.pictureBox2.Location = new System.Drawing.Point(14, 121);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(24, 24);
@@ -120,7 +120,7 @@
             this.excludedItemsButton.Enabled = false;
             this.excludedItemsButton.FlatAppearance.BorderSize = 0;
             this.excludedItemsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.excludedItemsButton.Image = global::RoboMirror.Properties.Resources.data_forbidden;
+            this.excludedItemsButton.Image = global::DeeMirror.Properties.Resources.data_forbidden;
             this.excludedItemsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.excludedItemsButton.Location = new System.Drawing.Point(52, 76);
             this.excludedItemsButton.Name = "excludedItemsButton";
@@ -136,7 +136,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::RoboMirror.Properties.Resources.data24;
+            this.pictureBox1.Image = global::DeeMirror.Properties.Resources.data24;
             this.pictureBox1.Location = new System.Drawing.Point(14, 14);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(24, 24);
@@ -149,7 +149,7 @@
             this.browseSourceFolderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.browseSourceFolderButton.FlatAppearance.BorderSize = 0;
             this.browseSourceFolderButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.browseSourceFolderButton.Image = global::RoboMirror.Properties.Resources.folder_view;
+            this.browseSourceFolderButton.Image = global::DeeMirror.Properties.Resources.folder_view;
             this.browseSourceFolderButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.browseSourceFolderButton.Location = new System.Drawing.Point(399, 41);
             this.browseSourceFolderButton.Name = "browseSourceFolderButton";
@@ -167,7 +167,7 @@
             this.browseTargetFolderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.browseTargetFolderButton.FlatAppearance.BorderSize = 0;
             this.browseTargetFolderButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.browseTargetFolderButton.Image = global::RoboMirror.Properties.Resources.folder_view;
+            this.browseTargetFolderButton.Image = global::DeeMirror.Properties.Resources.folder_view;
             this.browseTargetFolderButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.browseTargetFolderButton.Location = new System.Drawing.Point(399, 148);
             this.browseTargetFolderButton.Name = "browseTargetFolderButton";

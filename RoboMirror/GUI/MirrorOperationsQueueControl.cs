@@ -11,7 +11,7 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace RoboMirror.GUI
+namespace DeeMirror.GUI
 {
 	public partial class MirrorOperationsQueueControl : UserControl
 	{

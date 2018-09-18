@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml.Linq;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	/// <summary>
 	/// Base class for managers of atomic XML files.

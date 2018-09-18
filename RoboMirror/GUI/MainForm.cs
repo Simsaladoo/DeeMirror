@@ -6,14 +6,14 @@
  */
 
 using Microsoft.Win32.TaskScheduler;
-using RoboMirror.Properties;
+using DeeMirror.Properties;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace RoboMirror.GUI
+namespace DeeMirror.GUI
 {
 	public partial class MainForm : BaseForm
 	{
@@ -98,10 +98,10 @@ namespace RoboMirror.GUI
 
 		private void pictureBox1_Click(object sender, EventArgs e)
 		{
-			label1.Text = string.Format("RoboMirror v{0}\nCopyright (c) Martin Kinkelin",
+			label1.Text = string.Format("DeeMirror v{0}\nCopyright (c) Martin Kinkelin",
 				Application.ProductVersion.TrimEnd('0', '.'));
 
-			try { System.Diagnostics.Process.Start("http://robomirror.sourceforge.net/"); }
+			try { System.Diagnostics.Process.Start("http://DeeMirror.sourceforge.net/"); }
 			catch { }
 		}
 
@@ -305,7 +305,7 @@ namespace RoboMirror.GUI
 			if (!mirrorOperationsQueueControl.IsEmpty && e.CloseReason == CloseReason.UserClosing)
 			{
 				if (MessageBox.Show(this, "Are you sure you want to abort all active operations?",
-					"RoboMirror", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) !=
+					"DeeMirror", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) !=
 					DialogResult.Yes)
 				{
 					e.Cancel = true;
@@ -339,7 +339,7 @@ namespace RoboMirror.GUI
 			if (!shutdownWhenDoneCheckBox.Checked)
 				return;
 
-			const string message = "All RoboMirror operations have finished - shutting down as requested.";
+			const string message = "All DeeMirror operations have finished - shutting down as requested.";
 			const int timeoutSeconds = 60;
 
 			if (TokenPrivilegesAdjuster.Enable("SeShutdownPrivilege"))

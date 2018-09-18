@@ -1,4 +1,4 @@
-﻿namespace RoboMirror.GUI
+﻿namespace DeeMirror.GUI
 {
 	partial class SimulationResultDialog
 	{
@@ -59,7 +59,7 @@
             this.abortButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.abortButton.FlatAppearance.BorderSize = 0;
             this.abortButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.abortButton.Image = global::RoboMirror.Properties.Resources.delete;
+            this.abortButton.Image = global::DeeMirror.Properties.Resources.delete;
             this.abortButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.abortButton.Location = new System.Drawing.Point(519, 351);
             this.abortButton.Name = "abortButton";
@@ -74,7 +74,7 @@
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.pictureBox3.Image = global::RoboMirror.Properties.Resources.data_information32;
+            this.pictureBox3.Image = global::DeeMirror.Properties.Resources.data_information32;
             this.pictureBox3.Location = new System.Drawing.Point(602, 10);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(37, 37);
@@ -102,7 +102,7 @@
             this.proceedButton.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.proceedButton.FlatAppearance.BorderSize = 0;
             this.proceedButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.proceedButton.Image = global::RoboMirror.Properties.Resources.check;
+            this.proceedButton.Image = global::DeeMirror.Properties.Resources.check;
             this.proceedButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.proceedButton.Location = new System.Drawing.Point(384, 351);
             this.proceedButton.Name = "proceedButton";
@@ -143,7 +143,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::RoboMirror.Properties.Resources.redo24;
+            this.pictureBox1.Image = global::DeeMirror.Properties.Resources.redo24;
             this.pictureBox1.Location = new System.Drawing.Point(17, 72);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(24, 24);
@@ -208,7 +208,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = global::RoboMirror.Properties.Resources.delete224;
+            this.pictureBox2.Image = global::DeeMirror.Properties.Resources.delete224;
             this.pictureBox2.Location = new System.Drawing.Point(347, 72);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(24, 24);

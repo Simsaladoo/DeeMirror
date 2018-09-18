@@ -10,11 +10,11 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	public sealed class ScheduledTasksManager : IDisposable
 	{
-		private static readonly string FOLDER = "RoboMirror";
+		private static readonly string FOLDER = "DeeMirror";
 
 		private TaskService _service;
 		private TaskFolder _folder;
@@ -123,7 +123,7 @@ namespace RoboMirror
 		/// </summary>
 		private static string GetName(MirrorTask mirrorTask)
 		{
-			return string.Format("RoboMirror ({0})", mirrorTask.Guid);
+			return string.Format("DeeMirror ({0})", mirrorTask.Guid);
 		}
 	}
 }

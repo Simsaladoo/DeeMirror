@@ -1,4 +1,4 @@
-﻿namespace RoboMirror.GUI
+﻿namespace DeeMirror.GUI
 {
 	partial class MainForm
 	{
@@ -47,7 +47,7 @@
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.restoreButton = new System.Windows.Forms.Button();
             this.backupButton = new System.Windows.Forms.Button();
-            this.mirrorOperationsQueueControl = new RoboMirror.GUI.MirrorOperationsQueueControl();
+            this.mirrorOperationsQueueControl = new DeeMirror.GUI.MirrorOperationsQueueControl();
             this.label2 = new System.Windows.Forms.Label();
             this.queuePanel = new System.Windows.Forms.Panel();
             this.shutdownWhenDoneCheckBox = new System.Windows.Forms.CheckBox();
@@ -69,7 +69,7 @@
             this.historyButton.Enabled = false;
             this.historyButton.FlatAppearance.BorderSize = 0;
             this.historyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.historyButton.Image = global::RoboMirror.Properties.Resources.history;
+            this.historyButton.Image = global::DeeMirror.Properties.Resources.history;
             this.historyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.historyButton.Location = new System.Drawing.Point(501, 112);
             this.historyButton.Name = "historyButton";
@@ -89,7 +89,7 @@
             this.scheduleButton.Enabled = false;
             this.scheduleButton.FlatAppearance.BorderSize = 0;
             this.scheduleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.scheduleButton.Image = global::RoboMirror.Properties.Resources.clock;
+            this.scheduleButton.Image = global::DeeMirror.Properties.Resources.clock;
             this.scheduleButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.scheduleButton.Location = new System.Drawing.Point(501, 157);
             this.scheduleButton.Name = "scheduleButton";
@@ -108,7 +108,7 @@
             this.addButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.addButton.FlatAppearance.BorderSize = 0;
             this.addButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addButton.Image = global::RoboMirror.Properties.Resources.data_copy_add;
+            this.addButton.Image = global::DeeMirror.Properties.Resources.data_copy_add;
             this.addButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.addButton.Location = new System.Drawing.Point(501, 0);
             this.addButton.Name = "addButton";
@@ -128,7 +128,7 @@
             this.editButton.Enabled = false;
             this.editButton.FlatAppearance.BorderSize = 0;
             this.editButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.editButton.Image = global::RoboMirror.Properties.Resources.data_copy;
+            this.editButton.Image = global::DeeMirror.Properties.Resources.data_copy;
             this.editButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.editButton.Location = new System.Drawing.Point(501, 33);
             this.editButton.Name = "editButton";
@@ -148,7 +148,7 @@
             this.removeButton.Enabled = false;
             this.removeButton.FlatAppearance.BorderSize = 0;
             this.removeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.removeButton.Image = global::RoboMirror.Properties.Resources.data_copy_delete;
+            this.removeButton.Image = global::DeeMirror.Properties.Resources.data_copy_delete;
             this.removeButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.removeButton.Location = new System.Drawing.Point(501, 67);
             this.removeButton.Name = "removeButton";
@@ -165,7 +165,7 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.pictureBox1.Image = global::RoboMirror.Properties.Resources.about32;
+            this.pictureBox1.Image = global::DeeMirror.Properties.Resources.about32;
             this.pictureBox1.Location = new System.Drawing.Point(600, 13);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(32, 32);
@@ -258,7 +258,7 @@
             this.restoreButton.FlatAppearance.BorderSize = 0;
             this.restoreButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.restoreButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.restoreButton.Image = global::RoboMirror.Properties.Resources.data_previous24;
+            this.restoreButton.Image = global::DeeMirror.Properties.Resources.data_previous24;
             this.restoreButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.restoreButton.Location = new System.Drawing.Point(355, 203);
             this.restoreButton.Name = "restoreButton";
@@ -277,7 +277,7 @@
             this.backupButton.Enabled = false;
             this.backupButton.FlatAppearance.BorderSize = 0;
             this.backupButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backupButton.Image = global::RoboMirror.Properties.Resources.data_next24;
+            this.backupButton.Image = global::DeeMirror.Properties.Resources.data_next24;
             this.backupButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.backupButton.Location = new System.Drawing.Point(0, 203);
             this.backupButton.Name = "backupButton";

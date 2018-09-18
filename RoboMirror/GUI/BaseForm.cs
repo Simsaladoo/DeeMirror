@@ -8,7 +8,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace RoboMirror.GUI
+namespace DeeMirror.GUI
 {
 	/// <summary>
 	/// Base of all forms.

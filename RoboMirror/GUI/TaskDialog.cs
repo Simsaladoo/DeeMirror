@@ -11,7 +11,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Globalization;
 
-namespace RoboMirror.GUI
+namespace DeeMirror.GUI
 {
 	/// <summary>
 	/// Allows editing of a mirror task.

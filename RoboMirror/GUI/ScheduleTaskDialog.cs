@@ -9,7 +9,7 @@ using System;
 using System.Windows.Forms;
 using Microsoft.Win32.TaskScheduler;
 
-namespace RoboMirror.GUI
+namespace DeeMirror.GUI
 {
 	/// <summary>
 	/// Allows scheduling of a backup task on Windows.

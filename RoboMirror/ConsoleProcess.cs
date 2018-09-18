@@ -12,7 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	/// <summary>
 	/// Wraps a hidden command-line process writing to stdout and stderr.

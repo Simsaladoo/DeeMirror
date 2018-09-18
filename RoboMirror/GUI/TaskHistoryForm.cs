@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Diagnostics;
 
-namespace RoboMirror.GUI
+namespace DeeMirror.GUI
 {
 	/// <summary>
 	/// Displays the history of a mirror task, based on its event log entries.

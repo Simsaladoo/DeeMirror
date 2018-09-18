@@ -1,4 +1,4 @@
-﻿namespace RoboMirror.GUI
+﻿namespace DeeMirror.GUI
 {
 	partial class ScheduledBackupExecutor
 	{
@@ -39,7 +39,7 @@
             // notifyIcon
             // 
             this.notifyIcon.ContextMenuStrip = this.contextMenuStrip;
-            this.notifyIcon.Text = "RoboMirroring...";
+            this.notifyIcon.Text = "DeeMirroring...";
             // 
             // contextMenuStrip
             // 
@@ -59,7 +59,7 @@
             // abortToolStripMenuItem
             // 
             this.abortToolStripMenuItem.Enabled = false;
-            this.abortToolStripMenuItem.Image = global::RoboMirror.Properties.Resources.delete;
+            this.abortToolStripMenuItem.Image = global::DeeMirror.Properties.Resources.delete;
             this.abortToolStripMenuItem.Name = "abortToolStripMenuItem";
             this.abortToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.abortToolStripMenuItem.Text = "Abort";

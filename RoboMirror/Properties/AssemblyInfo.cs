@@ -13,11 +13,11 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RoboMirror")]
+[assembly: AssemblyTitle("DeeMirror")]
 [assembly: AssemblyDescription("Robocopy GUI for mirroring")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RoboMirror")]
+[assembly: AssemblyProduct("DeeMirror")]
 [assembly: AssemblyCopyright("Copyright © Martin Kinkelin")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -8,7 +8,7 @@
 using System;
 using System.IO;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	#region FileLockedException class
 

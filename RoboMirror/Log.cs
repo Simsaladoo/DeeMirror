@@ -12,7 +12,7 @@ using System.IO;
 using System.Linq;
 using System.Xml.Linq;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	/// <summary>
 	/// Provides an easy way of writing to an XML log.
@@ -21,7 +21,7 @@ namespace RoboMirror
 	public class Log : XmlFileManager
 	{
 		// path to the XML file, relative to the user's AppData folder
-		private static readonly string PATH = Path.Combine("RoboMirror", "Log.xml");
+		private static readonly string PATH = Path.Combine("DeeMirror", "Log.xml");
 
 		#region LogEntry class
 		public class LogEntry

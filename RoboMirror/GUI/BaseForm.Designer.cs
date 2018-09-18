@@ -1,4 +1,4 @@
-﻿namespace RoboMirror.GUI
+﻿namespace DeeMirror.GUI
 {
 	partial class BaseForm
 	{

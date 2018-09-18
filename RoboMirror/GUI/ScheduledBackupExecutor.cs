@@ -9,7 +9,7 @@ using System;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace RoboMirror.GUI
+namespace DeeMirror.GUI
 {
 	/// <summary>
 	/// Executes a scheduled backup in the background while still
@@ -39,7 +39,7 @@ namespace RoboMirror.GUI
 					_executor.destinationToolStripMenuItem.Text = string.Format("To: {0}{1}",
 						_executor._operation.DestinationFolder, percentageSuffix);
 
-					_executor.notifyIcon.Text = "RoboMirroring..." + percentageSuffix;
+					_executor.notifyIcon.Text = "DeeMirroring..." + percentageSuffix;
 				}
 			}
 

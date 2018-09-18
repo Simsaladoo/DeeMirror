@@ -10,7 +10,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	#region FinishedEventArgs class
 	/// <summary>
@@ -257,7 +257,7 @@ namespace RoboMirror
 		{
 			_status.IsAbortingSupported = false;
 
-			MessageBox.Show(e.Text, "RoboMirror", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			MessageBox.Show(e.Text, "DeeMirror", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
 			Finish(false);
 		}
@@ -314,7 +314,7 @@ namespace RoboMirror
 			catch (Exception exception)
 			{
 				MessageBox.Show("The mirror operation could not be logged.\n\n" + exception.Message,
-					"RoboMirror", MessageBoxButtons.OK, MessageBoxIcon.Error);
+					"DeeMirror", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 
 			Finish(success);
@@ -346,7 +346,7 @@ namespace RoboMirror
 			catch (Exception e)
 			{
 				MessageBox.Show("Robocopy could not be started:\n\n" + e.Message,
-					"RoboMirror", MessageBoxButtons.OK, MessageBoxIcon.Error);
+					"DeeMirror", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
 				Finish(false);
 				return false;
@@ -386,7 +386,7 @@ namespace RoboMirror
 
 		private void Alert(string text, MessageBoxIcon icon)
 		{
-			if (MessageBox.Show(text + "\nWould you like to view the log?", "RoboMirror", MessageBoxButtons.YesNo, icon) == DialogResult.Yes)
+			if (MessageBox.Show(text + "\nWould you like to view the log?", "DeeMirror", MessageBoxButtons.YesNo, icon) == DialogResult.Yes)
 			{
 				using (var form = new GUI.LogForm("Robocopy log", _process.FullOutput))
 					form.ShowDialog();

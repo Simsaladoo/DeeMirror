@@ -12,7 +12,7 @@ using System.Linq;
 using System.Xml.Linq;
 using Microsoft.Win32.TaskScheduler;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	/// <summary>
 	/// Manages loading tasks from and saving tasks to an XML file.
@@ -20,13 +20,13 @@ namespace RoboMirror
 	public sealed class TaskManager : XmlFileManager
 	{
 		// path to the XML file, relative to the user's AppData folder
-		private static readonly string PATH = Path.Combine("RoboMirror", "Tasks.xml");
+		private static readonly string PATH = Path.Combine("DeeMirror", "Tasks.xml");
 
 		/// <summary>
 		/// Creates a new TaskManager.
 		/// Other threads cannot open the XML file for writing as long as the
 		/// instance is not disposed of. This ensures a consistent file, even
-		/// across multiple RoboMirror instances (e.g., GUI + scheduled task),
+		/// across multiple DeeMirror instances (e.g., GUI + scheduled task),
 		/// and that there can only be one running GUI instance at a time.
 		/// </summary>
 		/// <exception cref="FileLockedException"></exception>

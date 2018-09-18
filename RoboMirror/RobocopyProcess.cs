@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	#region Robocopy enums
 

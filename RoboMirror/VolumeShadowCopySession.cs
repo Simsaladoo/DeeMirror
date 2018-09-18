@@ -10,7 +10,7 @@ using System.IO;
 using System.Threading;
 using Alphaleonis.Win32.Vss;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	#region TextEventArgs class
 
@@ -216,7 +216,7 @@ namespace RoboMirror
 					Cleanup();
 
 					string msg = (e is UnauthorizedAccessException
-						? "You lack the required privileges to create a volume shadow copy.\nPlease restart RoboMirror as administrator."
+						? "You lack the required privileges to create a volume shadow copy.\nPlease restart DeeMirror as administrator."
 						: "The volume shadow copy could not be created:\n\n" + e.Message);
 					_session.OnError(msg);
 

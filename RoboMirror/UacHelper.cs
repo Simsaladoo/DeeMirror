@@ -8,7 +8,7 @@
 using System;
 using System.Security.Principal;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	public static class UacHelper
 	{

@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	public static class SmartEventInvoker
 	{

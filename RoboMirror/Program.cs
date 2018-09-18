@@ -9,7 +9,7 @@ using System;
 using System.Windows.Forms;
 using System.Diagnostics;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	static class Program
 	{
@@ -34,7 +34,7 @@ namespace RoboMirror
 				catch (InvalidOperationException e)
 				{
 					MessageBox.Show("A scheduled backup task could not be initiated:\n\n" + e.Message,
-						"RoboMirror", MessageBoxButtons.OK, MessageBoxIcon.Error);
+						"DeeMirror", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
 					return;
 				}
@@ -48,7 +48,7 @@ namespace RoboMirror
 				try { form = new GUI.MainForm(); }
 				catch (FileLockedException)
 				{
-					MessageBox.Show("Another RoboMirror instance is currently running.", "RoboMirror cannot be started",
+					MessageBox.Show("Another DeeMirror instance is currently running.", "DeeMirror cannot be started",
 						MessageBoxButtons.OK, MessageBoxIcon.Error);
 
 					return;
@@ -81,7 +81,7 @@ namespace RoboMirror
 			try
 			{
 				string msg = "Oops, an unexpected error has occurred:\n\n" + e.ToString();
-				MessageBox.Show(msg, "RoboMirror", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				MessageBox.Show(msg, "DeeMirror", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 			catch {}
 		}

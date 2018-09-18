@@ -1,4 +1,4 @@
-﻿namespace RoboMirror.GUI
+﻿namespace DeeMirror.GUI
 {
 	partial class ExcludedItemsControl
 	{
@@ -78,7 +78,7 @@
             this.removeButton.FlatAppearance.BorderSize = 0;
             this.removeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.removeButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.removeButton.Image = global::RoboMirror.Properties.Resources.delete2;
+            this.removeButton.Image = global::DeeMirror.Properties.Resources.delete2;
             this.removeButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.removeButton.Location = new System.Drawing.Point(5, 29);
             this.removeButton.Margin = new System.Windows.Forms.Padding(0);
@@ -100,7 +100,7 @@
             this.addWildcardButton.FlatAppearance.BorderSize = 0;
             this.addWildcardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addWildcardButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.addWildcardButton.Image = global::RoboMirror.Properties.Resources.document_find;
+            this.addWildcardButton.Image = global::DeeMirror.Properties.Resources.document_find;
             this.addWildcardButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.addWildcardButton.Location = new System.Drawing.Point(5, 120);
             this.addWildcardButton.Margin = new System.Windows.Forms.Padding(0);
@@ -142,7 +142,7 @@
             this.browseButton.FlatAppearance.BorderSize = 0;
             this.browseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.browseButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.browseButton.Image = global::RoboMirror.Properties.Resources.folder_view;
+            this.browseButton.Image = global::DeeMirror.Properties.Resources.folder_view;
             this.browseButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.browseButton.Location = new System.Drawing.Point(5, 0);
             this.browseButton.Margin = new System.Windows.Forms.Padding(0);

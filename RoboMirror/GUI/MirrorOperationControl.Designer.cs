@@ -1,4 +1,4 @@
-﻿namespace RoboMirror.GUI
+﻿namespace DeeMirror.GUI
 {
 	partial class MirrorOperationControl
 	{
@@ -129,7 +129,7 @@
             // 
             this.startToolStripButton.AutoSize = false;
             this.startToolStripButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.startToolStripButton.Image = global::RoboMirror.Properties.Resources.data_copy;
+            this.startToolStripButton.Image = global::DeeMirror.Properties.Resources.data_copy;
             this.startToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.startToolStripButton.Margin = new System.Windows.Forms.Padding(1);
             this.startToolStripButton.Name = "startToolStripButton";
@@ -141,7 +141,7 @@
             // 
             this.abortToolStripButton.AutoSize = false;
             this.abortToolStripButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.abortToolStripButton.Image = global::RoboMirror.Properties.Resources.delete;
+            this.abortToolStripButton.Image = global::DeeMirror.Properties.Resources.delete;
             this.abortToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.abortToolStripButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 2);
             this.abortToolStripButton.Name = "abortToolStripButton";

@@ -11,7 +11,7 @@ using System.IO;
 using System.Linq;
 using System.Xml.Linq;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	/// <summary>
 	/// Associates a source folder with a target folder, including the
@@ -186,7 +186,7 @@ namespace RoboMirror
 					if (!string.IsNullOrEmpty(folder.Value))
 						task.ExcludedFolders.Add(folder.Value);
 
-				// migrate from RoboMirror format prior to v1.0
+				// migrate from DeeMirror format prior to v1.0
 				foreach (var item in element.Elements("item"))
 				{
 					if (string.IsNullOrEmpty(item.Value))

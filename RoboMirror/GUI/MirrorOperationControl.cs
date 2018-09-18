@@ -13,7 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace RoboMirror.GUI
+namespace DeeMirror.GUI
 {
 	public partial class MirrorOperationControl : UserControl
 	{

@@ -1,4 +1,4 @@
-﻿namespace RoboMirror.GUI
+﻿namespace DeeMirror.GUI
 {
 	partial class ExcludedItemsDialog
 	{
@@ -39,9 +39,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.filesGroupBox = new System.Windows.Forms.GroupBox();
-            this.excludedFilesControl = new RoboMirror.GUI.ExcludedItemsControl();
+            this.excludedFilesControl = new DeeMirror.GUI.ExcludedItemsControl();
             this.foldersGroupBox = new System.Windows.Forms.GroupBox();
-            this.excludedFoldersControl = new RoboMirror.GUI.ExcludedItemsControl();
+            this.excludedFoldersControl = new DeeMirror.GUI.ExcludedItemsControl();
             this.splitContainer = new System.Windows.Forms.SplitContainer();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -145,7 +145,7 @@
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.pictureBox3.Image = global::RoboMirror.Properties.Resources.data_forbidden32;
+            this.pictureBox3.Image = global::DeeMirror.Properties.Resources.data_forbidden32;
             this.pictureBox3.Location = new System.Drawing.Point(550, 13);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(32, 32);
@@ -178,7 +178,7 @@
             this.excludedFilesControl.BaseFolder = null;
             this.excludedFilesControl.Font = this.Font;
             this.excludedFilesControl.Location = new System.Drawing.Point(14, 22);
-            this.excludedFilesControl.Mode = RoboMirror.GUI.ExcludedItemsMode.Files;
+            this.excludedFilesControl.Mode = DeeMirror.GUI.ExcludedItemsMode.Files;
             this.excludedFilesControl.Name = "excludedFilesControl";
             this.excludedFilesControl.Size = new System.Drawing.Size(540, 124);
             this.excludedFilesControl.TabIndex = 0;
@@ -208,7 +208,7 @@
             this.excludedFoldersControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.excludedFoldersControl.BaseFolder = null;
             this.excludedFoldersControl.Location = new System.Drawing.Point(14, 22);
-            this.excludedFoldersControl.Mode = RoboMirror.GUI.ExcludedItemsMode.Folders;
+            this.excludedFoldersControl.Mode = DeeMirror.GUI.ExcludedItemsMode.Folders;
             this.excludedFoldersControl.Name = "excludedFoldersControl";
             this.excludedFoldersControl.Size = new System.Drawing.Size(540, 126);
             this.excludedFoldersControl.TabIndex = 0;

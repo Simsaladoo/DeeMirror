@@ -9,7 +9,7 @@ using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace RoboMirror
+namespace DeeMirror
 {
 	public static class TokenPrivilegesAdjuster
 	{

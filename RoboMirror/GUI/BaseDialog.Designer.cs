@@ -1,4 +1,4 @@
-﻿namespace RoboMirror.GUI
+﻿namespace DeeMirror.GUI
 {
 	partial class BaseDialog
 	{
@@ -42,7 +42,7 @@
             this.cancelButton.FlatAppearance.BorderSize = 0;
             this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.cancelButton.Image = global::RoboMirror.Properties.Resources.delete;
+            this.cancelButton.Image = global::DeeMirror.Properties.Resources.delete;
             this.cancelButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.cancelButton.Location = new System.Drawing.Point(210, 0);
             this.cancelButton.Name = "cancelButton";
@@ -61,7 +61,7 @@
             this.okButton.FlatAppearance.BorderSize = 0;
             this.okButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.okButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.okButton.Image = global::RoboMirror.Properties.Resources.check;
+            this.okButton.Image = global::DeeMirror.Properties.Resources.check;
             this.okButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.okButton.Location = new System.Drawing.Point(75, 0);
             this.okButton.Name = "okButton";

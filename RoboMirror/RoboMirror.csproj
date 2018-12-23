@@ -12,7 +12,7 @@
     <AssemblyName>DeeMirror</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <ApplicationIcon>data_copy.ico</ApplicationIcon>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
     <SccProjectName>
     </SccProjectName>
@@ -294,6 +294,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="data_copy.ico" />
+    <Content Include="favicon.ico" />
     <None Include="Resources\history1.png" />
     <None Include="Resources\warning.png" />
     <None Include="Resources\history.png" />

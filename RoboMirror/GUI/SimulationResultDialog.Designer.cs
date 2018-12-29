@@ -177,7 +177,7 @@
             this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.richTextBox1.DetectUrls = false;
             this.richTextBox1.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.ForeColor = System.Drawing.SystemColors.Control;
+            this.richTextBox1.ForeColor = System.Drawing.Color.DimGray;
             this.richTextBox1.Location = new System.Drawing.Point(17, 182);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;

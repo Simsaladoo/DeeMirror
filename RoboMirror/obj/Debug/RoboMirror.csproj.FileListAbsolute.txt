@@ -57,7 +57,6 @@ G:\UE4\Splash\DeeMirror\RoboMirror\bin\Debug\AlphaVSS.Common.dll
 G:\UE4\Splash\DeeMirror\RoboMirror\bin\Debug\Microsoft.Win32.TaskScheduler.dll
 G:\UE4\Splash\DeeMirror\RoboMirror\bin\Debug\AlphaVSS.Common.xml
 G:\UE4\Splash\DeeMirror\RoboMirror\bin\Debug\Microsoft.Win32.TaskScheduler.xml
-G:\UE4\Splash\DeeMirror\RoboMirror\obj\Debug\RoboMirror.csprojAssemblyReference.cache
 G:\UE4\Splash\DeeMirror\RoboMirror\obj\Debug\DeeMirror.GUI.ExcludedItemsControl.resources
 G:\UE4\Splash\DeeMirror\RoboMirror\obj\Debug\DeeMirror.GUI.MirrorOperationControl.resources
 G:\UE4\Splash\DeeMirror\RoboMirror\obj\Debug\DeeMirror.GUI.MirrorOperationsQueueControl.resources

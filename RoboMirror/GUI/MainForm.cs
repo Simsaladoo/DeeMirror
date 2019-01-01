@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace DeeMirror.GUI
 {
@@ -48,14 +49,17 @@ namespace DeeMirror.GUI
 
 			var tasks = _taskManager.LoadTasks();
 			Log.LoadLastSuccessTimeStamps(tasks);
-
-			foreach (var task in tasks)
+            
+            foreach (var task in tasks)
 				AddListViewItem(task);
 
 			// select the first item
 			if (listView1.Items.Count > 0)
 				listView1.SelectedIndices.Add(0);
-		}
+
+           
+
+        }
 
 
 		private void HideQueuePanel()
@@ -98,10 +102,10 @@ namespace DeeMirror.GUI
 
 		private void pictureBox1_Click(object sender, EventArgs e)
 		{
-			label1.Text = string.Format("DeeMirror v{0}\nCopyright (c) Martin Kinkelin",
+			label1.Text = string.Format("DeeMirror v{0}\nCopyright (c) Simsaladoo",
 				Application.ProductVersion.TrimEnd('0', '.'));
 
-			try { System.Diagnostics.Process.Start("http://DeeMirror.sourceforge.net/"); }
+			try { System.Diagnostics.Process.Start("https://github.com/Simsaladoo?tab=repositories"); }
 			catch { }
 		}
 
@@ -345,5 +349,17 @@ namespace DeeMirror.GUI
 			if (TokenPrivilegesAdjuster.Enable("SeShutdownPrivilege"))
 				InitiateSystemShutdownEx(null, message, timeoutSeconds, false, false, 0);
 		}
-	}
+
+        private void listView1_DrawItem(object sender, DrawListViewItemEventArgs e)
+        {
+            e.Graphics.FillRectangle(Brushes.Red, e.Bounds);
+            e.DrawText();
+        }
+
+        private void listView1_DrawColumnHeader(object sender, DrawListViewColumnHeaderEventArgs e)
+        {
+            e.Graphics.FillRectangle(Brushes.Red, e.Bounds);
+            e.DrawText();
+        }
+    }
 }

@@ -65,3 +65,4 @@ G:\UE4\Splash\DeeMirror\RoboMirror\obj\Release\RoboMirror.csproj.CoreCompileInpu
 G:\UE4\Splash\DeeMirror\RoboMirror\obj\Release\RoboMirror.csproj.CopyComplete
 G:\UE4\Splash\DeeMirror\RoboMirror\obj\Release\DeeMirror.exe
 G:\UE4\Splash\DeeMirror\RoboMirror\obj\Release\DeeMirror.pdb
+G:\UE4\Splash\DeeMirror\RoboMirror\obj\Release\RoboMirror.csprojAssemblyReference.cache

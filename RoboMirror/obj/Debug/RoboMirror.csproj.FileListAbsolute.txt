@@ -76,3 +76,4 @@ G:\UE4\Splash\DeeMirror\RoboMirror\obj\Debug\RoboMirror.csproj.CoreCompileInputs
 G:\UE4\Splash\DeeMirror\RoboMirror\obj\Debug\RoboMirror.csproj.CopyComplete
 G:\UE4\Splash\DeeMirror\RoboMirror\obj\Debug\DeeMirror.exe
 G:\UE4\Splash\DeeMirror\RoboMirror\obj\Debug\DeeMirror.pdb
+G:\UE4\Splash\DeeMirror\RoboMirror\obj\Debug\RoboMirror.csprojAssemblyReference.cache

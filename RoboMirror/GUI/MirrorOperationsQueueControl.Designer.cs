@@ -36,6 +36,7 @@
             this.panel.AutoScroll = true;
             this.panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.panel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
             this.panel.ForeColor = System.Drawing.SystemColors.Control;
             this.panel.Location = new System.Drawing.Point(0, 0);
             this.panel.Name = "panel";

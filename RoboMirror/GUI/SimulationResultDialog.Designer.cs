@@ -59,6 +59,7 @@
             this.abortButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.abortButton.FlatAppearance.BorderSize = 0;
             this.abortButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.abortButton.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.abortButton.Image = global::DeeMirror.Properties.Resources.delete;
             this.abortButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.abortButton.Location = new System.Drawing.Point(519, 351);
@@ -86,6 +87,7 @@
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.label1.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
@@ -102,6 +104,7 @@
             this.proceedButton.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.proceedButton.FlatAppearance.BorderSize = 0;
             this.proceedButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.proceedButton.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.proceedButton.Image = global::DeeMirror.Properties.Resources.check;
             this.proceedButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.proceedButton.Location = new System.Drawing.Point(384, 351);
@@ -116,9 +119,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.label4.Location = new System.Drawing.Point(14, 164);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 15);
+            this.label4.Size = new System.Drawing.Size(50, 17);
             this.label4.TabIndex = 11;
             this.label4.Text = "Details:";
             // 
@@ -126,18 +130,20 @@
             // 
             this.deletedFoldersLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.deletedFoldersLabel.AutoSize = true;
+            this.deletedFoldersLabel.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.deletedFoldersLabel.Location = new System.Drawing.Point(435, 101);
             this.deletedFoldersLabel.Name = "deletedFoldersLabel";
-            this.deletedFoldersLabel.Size = new System.Drawing.Size(102, 15);
+            this.deletedFoldersLabel.Size = new System.Drawing.Size(118, 17);
             this.deletedFoldersLabel.TabIndex = 8;
             this.deletedFoldersLabel.Text = "666 out of 666 666";
             // 
             // copiedFoldersLabel
             // 
             this.copiedFoldersLabel.AutoSize = true;
+            this.copiedFoldersLabel.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.copiedFoldersLabel.Location = new System.Drawing.Point(105, 101);
             this.copiedFoldersLabel.Name = "copiedFoldersLabel";
-            this.copiedFoldersLabel.Size = new System.Drawing.Size(102, 15);
+            this.copiedFoldersLabel.Size = new System.Drawing.Size(118, 17);
             this.copiedFoldersLabel.TabIndex = 3;
             this.copiedFoldersLabel.Text = "666 out of 666 666";
             // 
@@ -154,18 +160,20 @@
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.label3.Location = new System.Drawing.Point(381, 101);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 15);
+            this.label3.Size = new System.Drawing.Size(54, 17);
             this.label3.TabIndex = 7;
             this.label3.Text = "Folders:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.label2.Location = new System.Drawing.Point(51, 101);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 15);
+            this.label2.Size = new System.Drawing.Size(54, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Folders:";
             // 
@@ -190,18 +198,20 @@
             // 
             this.deletedFilesLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.deletedFilesLabel.AutoSize = true;
+            this.deletedFilesLabel.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.deletedFilesLabel.Location = new System.Drawing.Point(435, 125);
             this.deletedFilesLabel.Name = "deletedFilesLabel";
-            this.deletedFilesLabel.Size = new System.Drawing.Size(93, 30);
+            this.deletedFilesLabel.Size = new System.Drawing.Size(105, 34);
             this.deletedFilesLabel.TabIndex = 10;
             this.deletedFilesLabel.Text = "666 666\r\n546 321.5 gbytes";
             // 
             // copiedFilesLabel
             // 
             this.copiedFilesLabel.AutoSize = true;
+            this.copiedFilesLabel.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.copiedFilesLabel.Location = new System.Drawing.Point(105, 125);
             this.copiedFilesLabel.Name = "copiedFilesLabel";
-            this.copiedFilesLabel.Size = new System.Drawing.Size(200, 30);
+            this.copiedFilesLabel.Size = new System.Drawing.Size(221, 34);
             this.copiedFilesLabel.TabIndex = 5;
             this.copiedFilesLabel.Text = "666 out of 666 666\r\n128.1 mbytes out of 546 321.5 gbytes";
             // 
@@ -219,27 +229,30 @@
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.label7.Location = new System.Drawing.Point(381, 125);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(33, 15);
+            this.label7.Size = new System.Drawing.Size(36, 17);
             this.label7.TabIndex = 9;
             this.label7.Text = "Files:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.label8.Location = new System.Drawing.Point(51, 125);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(33, 15);
+            this.label8.Size = new System.Drawing.Size(36, 17);
             this.label8.TabIndex = 4;
             this.label8.Text = "Files:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.label5.Location = new System.Drawing.Point(51, 77);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 15);
+            this.label5.Size = new System.Drawing.Size(89, 17);
             this.label5.TabIndex = 1;
             this.label5.Text = "To be copied:";
             // 
@@ -247,9 +260,10 @@
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.label6.Location = new System.Drawing.Point(381, 77);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(81, 15);
+            this.label6.Size = new System.Drawing.Size(93, 17);
             this.label6.TabIndex = 6;
             this.label6.Text = "To be deleted:";
             // 

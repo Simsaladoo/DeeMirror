@@ -64,6 +64,7 @@
             this.mainPanel.Controls.Add(this.label3);
             this.mainPanel.Controls.Add(this.statusLabel);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainPanel.Font = new System.Drawing.Font("Microsoft NeoGothic", 7F);
             this.mainPanel.Location = new System.Drawing.Point(0, 0);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(197, 44);
@@ -85,10 +86,11 @@
             // 
             this.simulateCheckBox.AutoSize = true;
             this.simulateCheckBox.BackColor = System.Drawing.Color.Transparent;
+            this.simulateCheckBox.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
             this.simulateCheckBox.ForeColor = System.Drawing.SystemColors.Control;
             this.simulateCheckBox.Location = new System.Drawing.Point(105, 28);
             this.simulateCheckBox.Name = "simulateCheckBox";
-            this.simulateCheckBox.Size = new System.Drawing.Size(85, 17);
+            this.simulateCheckBox.Size = new System.Drawing.Size(91, 19);
             this.simulateCheckBox.TabIndex = 4;
             this.simulateCheckBox.Text = "Simulate first";
             this.simulateCheckBox.UseVisualStyleBackColor = false;
@@ -96,16 +98,18 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(3, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 26);
+            this.label1.Size = new System.Drawing.Size(41, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "From:\r\nTo:";
             // 
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(3, 29);
             this.label3.Name = "label3";
@@ -118,6 +122,7 @@
             this.statusLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.statusLabel.BackColor = System.Drawing.Color.Transparent;
+            this.statusLabel.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
             this.statusLabel.ForeColor = System.Drawing.SystemColors.Control;
             this.statusLabel.Location = new System.Drawing.Point(44, 29);
             this.statusLabel.Name = "statusLabel";
@@ -128,6 +133,7 @@
             // startToolStripButton
             // 
             this.startToolStripButton.AutoSize = false;
+            this.startToolStripButton.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
             this.startToolStripButton.ForeColor = System.Drawing.SystemColors.Control;
             this.startToolStripButton.Image = global::DeeMirror.Properties.Resources.data_copy;
             this.startToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -140,6 +146,7 @@
             // abortToolStripButton
             // 
             this.abortToolStripButton.AutoSize = false;
+            this.abortToolStripButton.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
             this.abortToolStripButton.ForeColor = System.Drawing.SystemColors.Control;
             this.abortToolStripButton.Image = global::DeeMirror.Properties.Resources.delete;
             this.abortToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -155,6 +162,7 @@
             this.toolStrip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.toolStrip.CanOverflow = false;
             this.toolStrip.Dock = System.Windows.Forms.DockStyle.Right;
+            this.toolStrip.Font = new System.Drawing.Font("Microsoft NeoGothic", 9F);
             this.toolStrip.GripMargin = new System.Windows.Forms.Padding(0);
             this.toolStrip.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {

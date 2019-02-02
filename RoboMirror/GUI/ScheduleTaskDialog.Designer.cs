@@ -42,6 +42,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.intervalComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.intervalComboBox.Enabled = false;
+            this.intervalComboBox.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.intervalComboBox.FormattingEnabled = true;
             this.intervalComboBox.Items.AddRange(new object[] {
             "Daily",
@@ -49,25 +50,27 @@
             "Monthly"});
             this.intervalComboBox.Location = new System.Drawing.Point(41, 58);
             this.intervalComboBox.Name = "intervalComboBox";
-            this.intervalComboBox.Size = new System.Drawing.Size(319, 23);
+            this.intervalComboBox.Size = new System.Drawing.Size(319, 25);
             this.intervalComboBox.TabIndex = 1;
             this.intervalComboBox.SelectedIndexChanged += new System.EventHandler(this.control_Changed);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.label2.Location = new System.Drawing.Point(38, 97);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 15);
+            this.label2.Size = new System.Drawing.Size(68, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Beginning:";
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.checkBox1.Location = new System.Drawing.Point(20, 20);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(173, 19);
+            this.checkBox1.Size = new System.Drawing.Size(187, 21);
             this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "Perform automatic backups";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -77,10 +80,11 @@
             // 
             this.datePicker.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.datePicker.Enabled = false;
+            this.datePicker.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.datePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.datePicker.Location = new System.Drawing.Point(108, 93);
             this.datePicker.Name = "datePicker";
-            this.datePicker.Size = new System.Drawing.Size(117, 23);
+            this.datePicker.Size = new System.Drawing.Size(117, 25);
             this.datePicker.TabIndex = 3;
             this.datePicker.ValueChanged += new System.EventHandler(this.control_Changed);
             // 
@@ -88,11 +92,12 @@
             // 
             this.timePicker.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.timePicker.Enabled = false;
+            this.timePicker.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.timePicker.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.timePicker.Location = new System.Drawing.Point(243, 93);
             this.timePicker.Name = "timePicker";
             this.timePicker.ShowUpDown = true;
-            this.timePicker.Size = new System.Drawing.Size(117, 23);
+            this.timePicker.Size = new System.Drawing.Size(117, 25);
             this.timePicker.TabIndex = 4;
             this.timePicker.ValueChanged += new System.EventHandler(this.control_Changed);
             // 

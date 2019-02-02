@@ -67,10 +67,11 @@
             // 
             // ScheduledBackupExecutor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.ClientSize = new System.Drawing.Size(292, 269);
+            this.ClientSize = new System.Drawing.Size(292, 310);
+            this.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.Name = "ScheduledBackupExecutor";
             this.ShowInTaskbar = false;

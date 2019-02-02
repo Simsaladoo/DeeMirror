@@ -90,18 +90,20 @@
             // sourceLabel
             // 
             this.sourceLabel.AutoSize = true;
+            this.sourceLabel.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.sourceLabel.Location = new System.Drawing.Point(49, 19);
             this.sourceLabel.Name = "sourceLabel";
-            this.sourceLabel.Size = new System.Drawing.Size(80, 15);
+            this.sourceLabel.Size = new System.Drawing.Size(90, 17);
             this.sourceLabel.TabIndex = 0;
             this.sourceLabel.Text = "Source folder:";
             // 
             // targetLabel
             // 
             this.targetLabel.AutoSize = true;
+            this.targetLabel.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.targetLabel.Location = new System.Drawing.Point(49, 126);
             this.targetLabel.Name = "targetLabel";
-            this.targetLabel.Size = new System.Drawing.Size(77, 15);
+            this.targetLabel.Size = new System.Drawing.Size(88, 17);
             this.targetLabel.TabIndex = 5;
             this.targetLabel.Text = "Target folder:";
             // 
@@ -149,6 +151,7 @@
             this.browseSourceFolderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.browseSourceFolderButton.FlatAppearance.BorderSize = 0;
             this.browseSourceFolderButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.browseSourceFolderButton.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.browseSourceFolderButton.Image = global::DeeMirror.Properties.Resources.folder_view;
             this.browseSourceFolderButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.browseSourceFolderButton.Location = new System.Drawing.Point(399, 41);
@@ -167,6 +170,7 @@
             this.browseTargetFolderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.browseTargetFolderButton.FlatAppearance.BorderSize = 0;
             this.browseTargetFolderButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.browseTargetFolderButton.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.browseTargetFolderButton.Image = global::DeeMirror.Properties.Resources.folder_view;
             this.browseTargetFolderButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.browseTargetFolderButton.Location = new System.Drawing.Point(399, 148);
@@ -182,9 +186,10 @@
             // vscCheckBox
             // 
             this.vscCheckBox.AutoSize = true;
+            this.vscCheckBox.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.vscCheckBox.Location = new System.Drawing.Point(331, 81);
             this.vscCheckBox.Name = "vscCheckBox";
-            this.vscCheckBox.Size = new System.Drawing.Size(170, 19);
+            this.vscCheckBox.Size = new System.Drawing.Size(187, 21);
             this.vscCheckBox.TabIndex = 4;
             this.vscCheckBox.Text = "Use a volume shadow copy";
             this.toolTip1.SetToolTip(this.vscCheckBox, "Create a shadow copy of the source volume while mirroring.\r\nThis allows to copy f" +
@@ -195,9 +200,10 @@
             // aclsOnlyRadioButton
             // 
             this.aclsOnlyRadioButton.AutoSize = true;
+            this.aclsOnlyRadioButton.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.aclsOnlyRadioButton.Location = new System.Drawing.Point(85, 25);
             this.aclsOnlyRadioButton.Name = "aclsOnlyRadioButton";
-            this.aclsOnlyRadioButton.Size = new System.Drawing.Size(78, 19);
+            this.aclsOnlyRadioButton.Size = new System.Drawing.Size(82, 21);
             this.aclsOnlyRadioButton.TabIndex = 1;
             this.aclsOnlyRadioButton.Text = "ACLs only";
             this.toolTip1.SetToolTip(this.aclsOnlyRadioButton, "Copy only the rules allowing and denying users access to the files.");
@@ -207,9 +213,10 @@
             // allRadioButton
             // 
             this.allRadioButton.AutoSize = true;
+            this.allRadioButton.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.allRadioButton.Location = new System.Drawing.Point(188, 25);
             this.allRadioButton.Name = "allRadioButton";
-            this.allRadioButton.Size = new System.Drawing.Size(39, 19);
+            this.allRadioButton.Size = new System.Drawing.Size(40, 21);
             this.allRadioButton.TabIndex = 2;
             this.allRadioButton.Text = "All";
             this.toolTip1.SetToolTip(this.allRadioButton, "Copy all extended attributes (ACLs, owner and auditing information).\r\nThis requir" +
@@ -221,9 +228,10 @@
             // 
             this.noneRadioButton.AutoSize = true;
             this.noneRadioButton.Checked = true;
+            this.noneRadioButton.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.noneRadioButton.Location = new System.Drawing.Point(10, 25);
             this.noneRadioButton.Name = "noneRadioButton";
-            this.noneRadioButton.Size = new System.Drawing.Size(54, 19);
+            this.noneRadioButton.Size = new System.Drawing.Size(58, 21);
             this.noneRadioButton.TabIndex = 0;
             this.noneRadioButton.TabStop = true;
             this.noneRadioButton.Text = "None";
@@ -235,9 +243,10 @@
             // deleteExtraItemsCheckBox
             // 
             this.deleteExtraItemsCheckBox.AutoSize = true;
+            this.deleteExtraItemsCheckBox.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.deleteExtraItemsCheckBox.Location = new System.Drawing.Point(331, 217);
             this.deleteExtraItemsCheckBox.Name = "deleteExtraItemsCheckBox";
-            this.deleteExtraItemsCheckBox.Size = new System.Drawing.Size(173, 19);
+            this.deleteExtraItemsCheckBox.Size = new System.Drawing.Size(195, 21);
             this.deleteExtraItemsCheckBox.TabIndex = 10;
             this.deleteExtraItemsCheckBox.Text = "Delete extra files and folders";
             this.toolTip1.SetToolTip(this.deleteExtraItemsCheckBox, "Delete files and folders in the target folder which do not exist\r\nin the source f" +
@@ -248,9 +257,10 @@
             // overwriteNewerFilesCheckBox
             // 
             this.overwriteNewerFilesCheckBox.AutoSize = true;
+            this.overwriteNewerFilesCheckBox.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.overwriteNewerFilesCheckBox.Location = new System.Drawing.Point(331, 191);
             this.overwriteNewerFilesCheckBox.Name = "overwriteNewerFilesCheckBox";
-            this.overwriteNewerFilesCheckBox.Size = new System.Drawing.Size(136, 19);
+            this.overwriteNewerFilesCheckBox.Size = new System.Drawing.Size(149, 21);
             this.overwriteNewerFilesCheckBox.TabIndex = 9;
             this.overwriteNewerFilesCheckBox.Text = "Overwrite newer files";
             this.toolTip1.SetToolTip(this.overwriteNewerFilesCheckBox, "Overwrite newer files in the target folder by older ones from the source folder.\r" +
@@ -261,9 +271,10 @@
             // robocopySwitchesCheckBox
             // 
             this.robocopySwitchesCheckBox.AutoSize = true;
+            this.robocopySwitchesCheckBox.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
             this.robocopySwitchesCheckBox.Location = new System.Drawing.Point(14, 261);
             this.robocopySwitchesCheckBox.Name = "robocopySwitchesCheckBox";
-            this.robocopySwitchesCheckBox.Size = new System.Drawing.Size(176, 19);
+            this.robocopySwitchesCheckBox.Size = new System.Drawing.Size(190, 21);
             this.robocopySwitchesCheckBox.TabIndex = 11;
             this.robocopySwitchesCheckBox.Text = "Custom Robocopy switches:";
             this.toolTip1.SetToolTip(this.robocopySwitchesCheckBox, "Customize the basic Robocopy command-line switches for this mirror task.\r\nUse thi" +

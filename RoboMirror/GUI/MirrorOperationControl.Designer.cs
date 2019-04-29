@@ -35,21 +35,22 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.statusLabel = new System.Windows.Forms.Label();
-            this.startToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.abortToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStrip = new System.Windows.Forms.ToolStrip();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button2_Abort = new System.Windows.Forms.Button();
+            this.button1_Start = new System.Windows.Forms.Button();
             this.mainPanel.SuspendLayout();
-            this.toolStrip.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // progressBar
             // 
             this.progressBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.progressBar.Location = new System.Drawing.Point(105, 29);
+            this.progressBar.Location = new System.Drawing.Point(48, 37);
+            this.progressBar.Margin = new System.Windows.Forms.Padding(0);
             this.progressBar.Maximum = 1000;
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(81, 13);
+            this.progressBar.Size = new System.Drawing.Size(330, 6);
             this.progressBar.Step = 1;
             this.progressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar.TabIndex = 5;
@@ -57,17 +58,20 @@
             // 
             // mainPanel
             // 
+            this.mainPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.mainPanel.Controls.Add(this.label2);
             this.mainPanel.Controls.Add(this.simulateCheckBox);
             this.mainPanel.Controls.Add(this.label1);
             this.mainPanel.Controls.Add(this.progressBar);
             this.mainPanel.Controls.Add(this.label3);
             this.mainPanel.Controls.Add(this.statusLabel);
+            this.mainPanel.Controls.Add(this.panel1);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanel.Font = new System.Drawing.Font("Microsoft NeoGothic", 7F);
             this.mainPanel.Location = new System.Drawing.Point(0, 0);
+            this.mainPanel.Margin = new System.Windows.Forms.Padding(0);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(197, 44);
+            this.mainPanel.Size = new System.Drawing.Size(439, 70);
             this.mainPanel.TabIndex = 0;
             // 
             // label2
@@ -75,20 +79,22 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(44, 3);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 26);
+            this.label2.Size = new System.Drawing.Size(337, 26);
             this.label2.TabIndex = 1;
             this.label2.Text = "{0}\r\n{1}";
             // 
             // simulateCheckBox
             // 
+            this.simulateCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.simulateCheckBox.AutoSize = true;
             this.simulateCheckBox.BackColor = System.Drawing.Color.Transparent;
             this.simulateCheckBox.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
             this.simulateCheckBox.ForeColor = System.Drawing.SystemColors.Control;
-            this.simulateCheckBox.Location = new System.Drawing.Point(105, 28);
+            this.simulateCheckBox.Location = new System.Drawing.Point(285, 48);
             this.simulateCheckBox.Name = "simulateCheckBox";
             this.simulateCheckBox.Size = new System.Drawing.Size(91, 19);
             this.simulateCheckBox.TabIndex = 4;
@@ -98,22 +104,24 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(3, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 28);
+            this.label1.Size = new System.Drawing.Size(41, 43);
             this.label1.TabIndex = 0;
             this.label1.Text = "From:\r\nTo:";
             // 
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(3, 29);
+            this.label3.Location = new System.Drawing.Point(3, 46);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
+            this.label3.Size = new System.Drawing.Size(41, 24);
             this.label3.TabIndex = 2;
             this.label3.Text = "Status:";
             // 
@@ -122,57 +130,55 @@
             this.statusLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.statusLabel.BackColor = System.Drawing.Color.Transparent;
+            this.statusLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.statusLabel.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
             this.statusLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.statusLabel.Location = new System.Drawing.Point(44, 29);
+            this.statusLabel.Location = new System.Drawing.Point(50, 46);
             this.statusLabel.Name = "statusLabel";
-            this.statusLabel.Size = new System.Drawing.Size(151, 13);
+            this.statusLabel.Size = new System.Drawing.Size(331, 24);
             this.statusLabel.TabIndex = 3;
             this.statusLabel.Text = "Pending...";
             // 
-            // startToolStripButton
+            // panel1
             // 
-            this.startToolStripButton.AutoSize = false;
-            this.startToolStripButton.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
-            this.startToolStripButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.startToolStripButton.Image = global::DeeMirror.Properties.Resources.data_copy;
-            this.startToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.startToolStripButton.Margin = new System.Windows.Forms.Padding(1);
-            this.startToolStripButton.Name = "startToolStripButton";
-            this.startToolStripButton.Size = new System.Drawing.Size(59, 20);
-            this.startToolStripButton.Text = " Start";
-            this.startToolStripButton.Click += new System.EventHandler(this.startToolStripButton_Click);
+            this.panel1.Controls.Add(this.button2_Abort);
+            this.panel1.Controls.Add(this.button1_Start);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel1.Location = new System.Drawing.Point(384, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(55, 70);
+            this.panel1.TabIndex = 2;
             // 
-            // abortToolStripButton
+            // button2_Abort
             // 
-            this.abortToolStripButton.AutoSize = false;
-            this.abortToolStripButton.Font = new System.Drawing.Font("Microsoft NeoGothic", 8F);
-            this.abortToolStripButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.abortToolStripButton.Image = global::DeeMirror.Properties.Resources.delete;
-            this.abortToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.abortToolStripButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 2);
-            this.abortToolStripButton.Name = "abortToolStripButton";
-            this.abortToolStripButton.Size = new System.Drawing.Size(59, 20);
-            this.abortToolStripButton.Text = " Abort";
-            this.abortToolStripButton.Click += new System.EventHandler(this.abortToolStripButton_Click);
+            this.button2_Abort.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button2_Abort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.button2_Abort.FlatAppearance.BorderSize = 0;
+            this.button2_Abort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2_Abort.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button2_Abort.Location = new System.Drawing.Point(0, 35);
+            this.button2_Abort.Margin = new System.Windows.Forms.Padding(0);
+            this.button2_Abort.Name = "button2_Abort";
+            this.button2_Abort.Size = new System.Drawing.Size(55, 35);
+            this.button2_Abort.TabIndex = 3;
+            this.button2_Abort.Text = "Abort";
+            this.button2_Abort.UseVisualStyleBackColor = false;
+            this.button2_Abort.Click += new System.EventHandler(this.button2_Abort_Click);
             // 
-            // toolStrip
+            // button1_Start
             // 
-            this.toolStrip.AutoSize = false;
-            this.toolStrip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.toolStrip.CanOverflow = false;
-            this.toolStrip.Dock = System.Windows.Forms.DockStyle.Right;
-            this.toolStrip.Font = new System.Drawing.Font("Microsoft NeoGothic", 9F);
-            this.toolStrip.GripMargin = new System.Windows.Forms.Padding(0);
-            this.toolStrip.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.startToolStripButton,
-            this.abortToolStripButton});
-            this.toolStrip.Location = new System.Drawing.Point(197, 0);
-            this.toolStrip.Name = "toolStrip";
-            this.toolStrip.ShowItemToolTips = false;
-            this.toolStrip.Size = new System.Drawing.Size(60, 44);
-            this.toolStrip.TabIndex = 1;
+            this.button1_Start.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.button1_Start.FlatAppearance.BorderSize = 0;
+            this.button1_Start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1_Start.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1_Start.Location = new System.Drawing.Point(0, 0);
+            this.button1_Start.Margin = new System.Windows.Forms.Padding(0);
+            this.button1_Start.Name = "button1_Start";
+            this.button1_Start.Size = new System.Drawing.Size(55, 35);
+            this.button1_Start.TabIndex = 2;
+            this.button1_Start.Text = "Start";
+            this.button1_Start.UseVisualStyleBackColor = false;
+            this.button1_Start.Click += new System.EventHandler(this.button1_Start_Click);
             // 
             // MirrorOperationControl
             // 
@@ -180,13 +186,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.Controls.Add(this.mainPanel);
-            this.Controls.Add(this.toolStrip);
             this.Name = "MirrorOperationControl";
-            this.Size = new System.Drawing.Size(257, 44);
+            this.Size = new System.Drawing.Size(439, 70);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
-            this.toolStrip.ResumeLayout(false);
-            this.toolStrip.PerformLayout();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
 		}
@@ -200,8 +204,8 @@
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label statusLabel;
-		private System.Windows.Forms.ToolStripButton startToolStripButton;
-		private System.Windows.Forms.ToolStripButton abortToolStripButton;
-		private System.Windows.Forms.ToolStrip toolStrip;
-	}
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1_Start;
+        private System.Windows.Forms.Button button2_Abort;
+    }
 }

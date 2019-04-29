@@ -22,7 +22,7 @@ namespace DeeMirror.GUI
 		{
 			private readonly MirrorOperationControl _control;
 
-			public bool IsAbortingSupported { set { _control.abortToolStripButton.Enabled = value; } }
+			public bool IsAbortingSupported { set { _control.button2_Abort.Enabled = value; } }
 
 			public double Percentage
 			{
@@ -72,16 +72,14 @@ namespace DeeMirror.GUI
 
 			label1.Font = label3.Font = new Font(Font, FontStyle.Bold);
 
-			int toolstripButtonHeight = (this.Height - startToolStripButton.Margin.Vertical - abortToolStripButton.Margin.Vertical) / 2;
-			int toolstripButtonWidth = toolStrip.Width - 1;
+			int toolstripButtonHeight = (this.Height - button1_Start.Margin.Vertical - button2_Abort.Margin.Vertical) / 2;
 
-			startToolStripButton.Height = abortToolStripButton.Height = toolstripButtonHeight;
-			startToolStripButton.Width = abortToolStripButton.Width = toolstripButtonWidth;
+			button1_Start.Height = button2_Abort.Height = toolstripButtonHeight;
 		}
 
 		public void Start()
 		{
-			startToolStripButton.Enabled = false;
+			button1_Start.Enabled = false;
 			simulateCheckBox.Visible = false;
 
 			if (!_operation.HasStarted)
@@ -93,19 +91,19 @@ namespace DeeMirror.GUI
 
 		public void Abort()
 		{
-			abortToolStripButton.Enabled = false;
+			button2_Abort.Enabled = false;
 			_operation.Abort();
 
 			if (Aborted != null)
 				Aborted(this, EventArgs.Empty);
 		}
 
-		private void startToolStripButton_Click(object sender, EventArgs e)
+		private void button1_Start_Click(object sender, EventArgs e)
 		{
 			Start();
 		}
 
-		private void abortToolStripButton_Click(object sender, EventArgs e)
+		private void button2_Abort_Click(object sender, EventArgs e)
 		{
 			Abort();
 		}

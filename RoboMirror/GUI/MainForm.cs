@@ -102,8 +102,8 @@ namespace DeeMirror.GUI
 
 		private void pictureBox1_Click(object sender, EventArgs e)
 		{
-			label1.Text = string.Format("DeeMirror v{0}\nCopyright (c) Simsaladoo",
-				Application.ProductVersion.TrimEnd('0', '.'));
+			///label1.Text = string.Format("DeeMirror v{0}\nCopyright (c) Simsaladoo",
+				//Application.ProductVersion.TrimEnd('0', '.'));
 
 			try { System.Diagnostics.Process.Start("https://github.com/Simsaladoo?tab=repositories"); }
 			catch { }

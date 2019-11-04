@@ -113,5 +113,10 @@ namespace DeeMirror.GUI
 
 			base.OnShown(e);
 		}
-	}
+
+        private void copiedFoldersLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

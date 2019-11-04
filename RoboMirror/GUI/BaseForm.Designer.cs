@@ -32,12 +32,12 @@
             // 
             // BaseForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.ClientSize = new System.Drawing.Size(341, 352);
-            this.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ClientSize = new System.Drawing.Size(256, 286);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "BaseForm";
             this.Text = "BaseForm";
             this.ResumeLayout(false);

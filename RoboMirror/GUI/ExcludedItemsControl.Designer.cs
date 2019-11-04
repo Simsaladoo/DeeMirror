@@ -50,7 +50,7 @@
             this.wildcardTextBox.Location = new System.Drawing.Point(7, 123);
             this.wildcardTextBox.Margin = new System.Windows.Forms.Padding(0);
             this.wildcardTextBox.Name = "wildcardTextBox";
-            this.wildcardTextBox.Size = new System.Drawing.Size(119, 18);
+            this.wildcardTextBox.Size = new System.Drawing.Size(119, 15);
             this.wildcardTextBox.TabIndex = 2;
             this.wildcardTextBox.TextChanged += new System.EventHandler(this.wildcardTextBox_TextChanged);
             // 
@@ -61,7 +61,7 @@
             this.listBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBox.ForeColor = System.Drawing.SystemColors.Control;
             this.listBox.IntegralHeight = false;
-            this.listBox.ItemHeight = 17;
+            this.listBox.ItemHeight = 16;
             this.listBox.Location = new System.Drawing.Point(0, 0);
             this.listBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listBox.Name = "listBox";
@@ -79,6 +79,7 @@
             this.removeButton.Enabled = false;
             this.removeButton.FlatAppearance.BorderSize = 0;
             this.removeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.removeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.removeButton.ForeColor = System.Drawing.SystemColors.Control;
             this.removeButton.Image = global::DeeMirror.Properties.Resources.delete2;
             this.removeButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -101,6 +102,7 @@
             this.addWildcardButton.Enabled = false;
             this.addWildcardButton.FlatAppearance.BorderSize = 0;
             this.addWildcardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addWildcardButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.addWildcardButton.ForeColor = System.Drawing.SystemColors.Control;
             this.addWildcardButton.Image = global::DeeMirror.Properties.Resources.document_find;
             this.addWildcardButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -143,6 +145,7 @@
             this.browseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.browseButton.FlatAppearance.BorderSize = 0;
             this.browseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.browseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.browseButton.ForeColor = System.Drawing.SystemColors.Control;
             this.browseButton.Image = global::DeeMirror.Properties.Resources.folder_view;
             this.browseButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -159,12 +162,12 @@
             // 
             // ExcludedItemsControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.Controls.Add(this.listBox);
             this.Controls.Add(this.rightPanel);
-            this.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "ExcludedItemsControl";
             this.Size = new System.Drawing.Size(500, 187);

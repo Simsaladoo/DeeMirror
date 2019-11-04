@@ -53,9 +53,9 @@
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.pictureBox1.Image = global::DeeMirror.Properties.Resources.history32;
-            this.pictureBox1.Location = new System.Drawing.Point(497, 13);
+            this.pictureBox1.Location = new System.Drawing.Point(568, 14);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(37, 34);
             this.pictureBox1.TabIndex = 1004;
             this.pictureBox1.TabStop = false;
             // 
@@ -68,15 +68,15 @@
             this.columnHeader2,
             this.columnHeader3});
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listView1.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
+            this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.listView1.ForeColor = System.Drawing.SystemColors.Control;
             this.listView1.FullRowSelect = true;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(0, 58);
+            this.listView1.Location = new System.Drawing.Point(0, 62);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.ShowItemToolTips = true;
-            this.listView1.Size = new System.Drawing.Size(541, 247);
+            this.listView1.Size = new System.Drawing.Size(618, 263);
             this.listView1.SmallImageList = this.imageList1;
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
@@ -103,12 +103,12 @@
             // 
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft NeoGothic", 9.75F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(14, 0, 65, 0);
-            this.label1.Size = new System.Drawing.Size(541, 58);
+            this.label1.Padding = new System.Windows.Forms.Padding(16, 0, 74, 0);
+            this.label1.Size = new System.Drawing.Size(618, 62);
             this.label1.TabIndex = 1;
             this.label1.Text = "This is the complete history of the selected task.\r\nDouble-click an entry to view" +
     " the associated Robocopy log.";
@@ -116,10 +116,10 @@
             // 
             // TaskHistoryForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.ClientSize = new System.Drawing.Size(541, 305);
+            this.ClientSize = new System.Drawing.Size(618, 325);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label1);
@@ -127,7 +127,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(454, 168);
+            this.MinimumSize = new System.Drawing.Size(517, 177);
             this.Name = "TaskHistoryForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

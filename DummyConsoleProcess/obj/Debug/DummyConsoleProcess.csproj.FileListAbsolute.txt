@@ -15,3 +15,4 @@ G:\UE4\Splash\DeeMirror\DummyConsoleProcess\obj\Debug\DummyConsoleProcess.csproj
 G:\UE4\Splash\DeeMirror\DummyConsoleProcess\obj\Debug\DummyConsoleProcess.exe
 G:\UE4\Splash\DeeMirror\DummyConsoleProcess\obj\Debug\DummyConsoleProcess.pdb
 G:\UE4\Splash\DeeMirror\RoboMirror\bin\Debug\favicon.ico
+D:\Reposit\DeeMirror\RoboMirror\bin\Debug\favicon.ico

@@ -43,7 +43,7 @@
             // 
             // wildcardTextBox
             // 
-            this.wildcardTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.wildcardTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.wildcardTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.wildcardTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.wildcardTextBox.ForeColor = System.Drawing.SystemColors.Control;
@@ -66,7 +66,7 @@
             this.listBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listBox.Name = "listBox";
             this.listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox.Size = new System.Drawing.Size(374, 187);
+            this.listBox.Size = new System.Drawing.Size(217, 187);
             this.listBox.Sorted = true;
             this.listBox.TabIndex = 0;
             this.listBox.SelectedIndexChanged += new System.EventHandler(this.listBox_SelectedIndexChanged);
@@ -74,7 +74,6 @@
             // 
             // removeButton
             // 
-            this.removeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.removeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.removeButton.Enabled = false;
             this.removeButton.FlatAppearance.BorderSize = 0;
@@ -97,7 +96,7 @@
             // 
             // addWildcardButton
             // 
-            this.addWildcardButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.addWildcardButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.addWildcardButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.addWildcardButton.Enabled = false;
             this.addWildcardButton.FlatAppearance.BorderSize = 0;
@@ -133,7 +132,7 @@
             this.rightPanel.Controls.Add(this.wildcardTextBox);
             this.rightPanel.Controls.Add(this.addWildcardButton);
             this.rightPanel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.rightPanel.Location = new System.Drawing.Point(374, 0);
+            this.rightPanel.Location = new System.Drawing.Point(217, 0);
             this.rightPanel.Margin = new System.Windows.Forms.Padding(0);
             this.rightPanel.Name = "rightPanel";
             this.rightPanel.Size = new System.Drawing.Size(126, 187);
@@ -141,7 +140,6 @@
             // 
             // browseButton
             // 
-            this.browseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.browseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.browseButton.FlatAppearance.BorderSize = 0;
             this.browseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -170,7 +168,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "ExcludedItemsControl";
-            this.Size = new System.Drawing.Size(500, 187);
+            this.Size = new System.Drawing.Size(343, 187);
             this.rightPanel.ResumeLayout(false);
             this.rightPanel.PerformLayout();
             this.ResumeLayout(false);

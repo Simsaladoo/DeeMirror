@@ -16,3 +16,10 @@ G:\UE4\Splash\DeeMirror\DummyConsoleProcess\obj\Debug\DummyConsoleProcess.exe
 G:\UE4\Splash\DeeMirror\DummyConsoleProcess\obj\Debug\DummyConsoleProcess.pdb
 G:\UE4\Splash\DeeMirror\RoboMirror\bin\Debug\favicon.ico
 D:\Reposit\DeeMirror\RoboMirror\bin\Debug\favicon.ico
+E:\Reposit\DeeMirror\RoboMirror\bin\Debug\favicon.ico
+E:\Reposit\DeeMirror\RoboMirror\bin\Debug\DummyConsoleProcess.exe
+E:\Reposit\DeeMirror\RoboMirror\bin\Debug\DummyConsoleProcess.pdb
+E:\Reposit\DeeMirror\DummyConsoleProcess\obj\Debug\DummyConsoleProcess.csprojAssemblyReference.cache
+E:\Reposit\DeeMirror\DummyConsoleProcess\obj\Debug\DummyConsoleProcess.csproj.CoreCompileInputs.cache
+E:\Reposit\DeeMirror\DummyConsoleProcess\obj\Debug\DummyConsoleProcess.exe
+E:\Reposit\DeeMirror\DummyConsoleProcess\obj\Debug\DummyConsoleProcess.pdb

@@ -175,3 +175,4 @@ E:\Reposit\DeeMirror\RoboMirror\obj\Debug\RoboMirror.csproj.CoreCompileInputs.ca
 E:\Reposit\DeeMirror\RoboMirror\obj\Debug\RoboMirror.csproj.CopyComplete
 E:\Reposit\DeeMirror\RoboMirror\obj\Debug\DeeMirror.exe
 E:\Reposit\DeeMirror\RoboMirror\obj\Debug\DeeMirror.pdb
+E:\Reposit\DeeMirror\RoboMirror\obj\Debug\RoboMirror.csprojAssemblyReference.cache

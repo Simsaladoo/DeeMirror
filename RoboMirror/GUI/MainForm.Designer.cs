@@ -74,8 +74,8 @@
             this.historyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.historyButton.Image = global::DeeMirror.Properties.Resources.history;
             this.historyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.historyButton.Location = new System.Drawing.Point(612, 98);
-            this.historyButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.historyButton.Location = new System.Drawing.Point(673, 98);
+            this.historyButton.Margin = new System.Windows.Forms.Padding(2);
             this.historyButton.Name = "historyButton";
             this.historyButton.Padding = new System.Windows.Forms.Padding(8, 0, 17, 0);
             this.historyButton.Size = new System.Drawing.Size(100, 24);
@@ -96,8 +96,8 @@
             this.scheduleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.scheduleButton.Image = global::DeeMirror.Properties.Resources.clock;
             this.scheduleButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.scheduleButton.Location = new System.Drawing.Point(612, 136);
-            this.scheduleButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.scheduleButton.Location = new System.Drawing.Point(673, 136);
+            this.scheduleButton.Margin = new System.Windows.Forms.Padding(2);
             this.scheduleButton.Name = "scheduleButton";
             this.scheduleButton.Padding = new System.Windows.Forms.Padding(8, 0, 10, 0);
             this.scheduleButton.Size = new System.Drawing.Size(100, 24);
@@ -117,8 +117,8 @@
             this.addButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.addButton.Image = global::DeeMirror.Properties.Resources.data_copy_add;
             this.addButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.addButton.Location = new System.Drawing.Point(612, 0);
-            this.addButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.addButton.Location = new System.Drawing.Point(673, 0);
+            this.addButton.Margin = new System.Windows.Forms.Padding(2);
             this.addButton.Name = "addButton";
             this.addButton.Padding = new System.Windows.Forms.Padding(8, 0, 10, 0);
             this.addButton.Size = new System.Drawing.Size(100, 24);
@@ -139,8 +139,8 @@
             this.editButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.editButton.Image = global::DeeMirror.Properties.Resources.data_copy;
             this.editButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.editButton.Location = new System.Drawing.Point(612, 28);
-            this.editButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.editButton.Location = new System.Drawing.Point(673, 28);
+            this.editButton.Margin = new System.Windows.Forms.Padding(2);
             this.editButton.Name = "editButton";
             this.editButton.Padding = new System.Windows.Forms.Padding(8, 0, 28, 0);
             this.editButton.Size = new System.Drawing.Size(100, 24);
@@ -161,8 +161,8 @@
             this.removeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.removeButton.Image = global::DeeMirror.Properties.Resources.data_copy_delete;
             this.removeButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.removeButton.Location = new System.Drawing.Point(612, 58);
-            this.removeButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.removeButton.Location = new System.Drawing.Point(673, 58);
+            this.removeButton.Margin = new System.Windows.Forms.Padding(2);
             this.removeButton.Name = "removeButton";
             this.removeButton.Padding = new System.Windows.Forms.Padding(8, 0, 20, 0);
             this.removeButton.Size = new System.Drawing.Size(100, 24);
@@ -188,9 +188,9 @@
             this.mainPanel.Controls.Add(this.editButton);
             this.mainPanel.Controls.Add(this.removeButton);
             this.mainPanel.Location = new System.Drawing.Point(12, 19);
-            this.mainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(713, 280);
+            this.mainPanel.Size = new System.Drawing.Size(774, 280);
             this.mainPanel.TabIndex = 0;
             // 
             // listView1
@@ -209,11 +209,11 @@
             this.listView1.FullRowSelect = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(1, 1);
-            this.listView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listView1.Margin = new System.Windows.Forms.Padding(2);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.ShowItemToolTips = true;
-            this.listView1.Size = new System.Drawing.Size(608, 223);
+            this.listView1.Size = new System.Drawing.Size(669, 223);
             this.listView1.SmallImageList = this.imageList1;
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
@@ -255,8 +255,8 @@
             this.restoreButton.ForeColor = System.Drawing.SystemColors.Control;
             this.restoreButton.Image = global::DeeMirror.Properties.Resources.data_previous24;
             this.restoreButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.restoreButton.Location = new System.Drawing.Point(488, 240);
-            this.restoreButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.restoreButton.Location = new System.Drawing.Point(549, 240);
+            this.restoreButton.Margin = new System.Windows.Forms.Padding(2);
             this.restoreButton.Name = "restoreButton";
             this.restoreButton.Padding = new System.Windows.Forms.Padding(17, 0, 26, 0);
             this.restoreButton.Size = new System.Drawing.Size(120, 40);
@@ -277,7 +277,7 @@
             this.backupButton.Image = global::DeeMirror.Properties.Resources.data_next24;
             this.backupButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.backupButton.Location = new System.Drawing.Point(1, 240);
-            this.backupButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.backupButton.Margin = new System.Windows.Forms.Padding(2);
             this.backupButton.Name = "backupButton";
             this.backupButton.Padding = new System.Windows.Forms.Padding(17, 0, 23, 0);
             this.backupButton.Size = new System.Drawing.Size(120, 40);
@@ -295,9 +295,9 @@
             this.mirrorOperationsQueueControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.mirrorOperationsQueueControl.ForeColor = System.Drawing.Color.DimGray;
             this.mirrorOperationsQueueControl.Location = new System.Drawing.Point(0, 22);
-            this.mirrorOperationsQueueControl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mirrorOperationsQueueControl.Margin = new System.Windows.Forms.Padding(2);
             this.mirrorOperationsQueueControl.Name = "mirrorOperationsQueueControl";
-            this.mirrorOperationsQueueControl.Size = new System.Drawing.Size(713, 139);
+            this.mirrorOperationsQueueControl.Size = new System.Drawing.Size(774, 139);
             this.mirrorOperationsQueueControl.TabIndex = 1;
             this.mirrorOperationsQueueControl.AllFinished += new System.EventHandler(this.mirrorOperationsQueueControl_AllFinished);
             // 
@@ -322,9 +322,9 @@
             this.queuePanel.Controls.Add(this.mirrorOperationsQueueControl);
             this.queuePanel.Controls.Add(this.label2);
             this.queuePanel.Location = new System.Drawing.Point(12, 309);
-            this.queuePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.queuePanel.Margin = new System.Windows.Forms.Padding(2);
             this.queuePanel.Name = "queuePanel";
-            this.queuePanel.Size = new System.Drawing.Size(713, 182);
+            this.queuePanel.Size = new System.Drawing.Size(774, 182);
             this.queuePanel.TabIndex = 1;
             // 
             // shutdownWhenDoneCheckBox
@@ -334,7 +334,7 @@
             this.shutdownWhenDoneCheckBox.BackColor = System.Drawing.Color.Transparent;
             this.shutdownWhenDoneCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.shutdownWhenDoneCheckBox.Location = new System.Drawing.Point(4, 163);
-            this.shutdownWhenDoneCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.shutdownWhenDoneCheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.shutdownWhenDoneCheckBox.Name = "shutdownWhenDoneCheckBox";
             this.shutdownWhenDoneCheckBox.Size = new System.Drawing.Size(130, 17);
             this.shutdownWhenDoneCheckBox.TabIndex = 2;
@@ -347,15 +347,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(737, 500);
+            this.ClientSize = new System.Drawing.Size(798, 500);
             this.Controls.Add(this.queuePanel);
             this.Controls.Add(this.mainPanel);
             this.DoubleBuffered = true;
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(531, 320);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -139,7 +139,6 @@ E:\Reposit\DeeMirror\Release\Resources\data_information.png
 E:\Reposit\DeeMirror\Release\DeeMirror.exe.config
 E:\Reposit\DeeMirror\Release\DeeMirror.exe
 E:\Reposit\DeeMirror\Release\DeeMirror.pdb
-E:\Reposit\DeeMirror\RoboMirror\obj\Release\RoboMirror.csprojAssemblyReference.cache
 E:\Reposit\DeeMirror\RoboMirror\obj\Release\DeeMirror.GUI.ExcludedItemsControl.resources
 E:\Reposit\DeeMirror\RoboMirror\obj\Release\DeeMirror.GUI.MirrorOperationControl.resources
 E:\Reposit\DeeMirror\RoboMirror\obj\Release\DeeMirror.GUI.MirrorOperationsQueueControl.resources

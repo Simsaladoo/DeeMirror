@@ -297,7 +297,7 @@
             this.mirrorOperationsQueueControl.Location = new System.Drawing.Point(0, 22);
             this.mirrorOperationsQueueControl.Margin = new System.Windows.Forms.Padding(2);
             this.mirrorOperationsQueueControl.Name = "mirrorOperationsQueueControl";
-            this.mirrorOperationsQueueControl.Size = new System.Drawing.Size(1220, 164);
+            this.mirrorOperationsQueueControl.Size = new System.Drawing.Size(1220, 166);
             this.mirrorOperationsQueueControl.TabIndex = 1;
             this.mirrorOperationsQueueControl.AllFinished += new System.EventHandler(this.mirrorOperationsQueueControl_AllFinished);
             // 
@@ -324,7 +324,7 @@
             this.queuePanel.Location = new System.Drawing.Point(12, 503);
             this.queuePanel.Margin = new System.Windows.Forms.Padding(2);
             this.queuePanel.Name = "queuePanel";
-            this.queuePanel.Size = new System.Drawing.Size(1220, 207);
+            this.queuePanel.Size = new System.Drawing.Size(1220, 209);
             this.queuePanel.TabIndex = 1;
             // 
             // shutdownWhenDoneCheckBox
@@ -333,7 +333,7 @@
             this.shutdownWhenDoneCheckBox.AutoSize = true;
             this.shutdownWhenDoneCheckBox.BackColor = System.Drawing.Color.Transparent;
             this.shutdownWhenDoneCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.shutdownWhenDoneCheckBox.Location = new System.Drawing.Point(4, 188);
+            this.shutdownWhenDoneCheckBox.Location = new System.Drawing.Point(4, 190);
             this.shutdownWhenDoneCheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.shutdownWhenDoneCheckBox.Name = "shutdownWhenDoneCheckBox";
             this.shutdownWhenDoneCheckBox.Size = new System.Drawing.Size(130, 17);
@@ -347,7 +347,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1244, 719);
+            this.ClientSize = new System.Drawing.Size(1244, 721);
             this.Controls.Add(this.queuePanel);
             this.Controls.Add(this.mainPanel);
             this.DoubleBuffered = true;
